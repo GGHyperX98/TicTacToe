@@ -1,0 +1,71 @@
+/* border: 3px Rahmen schwarz, collapse: Rahmen zusammenfallend */
+div {
+    border: 20px solid black;
+    border-collapse: collapse;
+    border: 2px solid black;
+	position: relative;
+	top: 100px;
+  
+  }
+  
+    h1 {
+    text-align: center;
+    background: -webkit-gradient(linear, left top, left bottom, from(#e3e3e3), to(#c8c8c8));
+    padding: 10px 20px;
+    margin-left: -20px;
+    margin-top: 0;
+    width: 70%; 
+    
+   
+   } 
+
+
+  /* Counter Label & Textbox */
+   #player1 {
+    width: 6em;
+    position: relative;
+    left: -6.25em;
+    text-align: center;
+
+  }
+
+  #label1 {
+      position: relative;
+      left: -4.25em;
+      color: black;
+  }
+      
+  
+  #player2 {
+    width: 6em;
+    position: absolute;
+    color: black;
+    text-align: center;
+  }
+
+  #label2 {
+    position: relative;
+    right: -4.25em;
+    color: black;
+
+  }
+
+
+/*Lässt die Buttons in den Hintergrund verschwinden*/
+input {
+	height: 5em;
+	width: 6em;
+    }
+
+div {
+    background: #666;
+    margin: auto;
+    width: 500px;
+    height: 700px;
+    padding-top: 30px;
+    font-family: helvetica, arial, sans-serif;
+    } 
+ 
+
+ 
+ 

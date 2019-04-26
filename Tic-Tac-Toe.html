@@ -1,0 +1,43 @@
+      <head>
+	   <link rel="stylesheet" href="Tic-Tac-Toe.css">
+	   <script src="Tic-Tac-Toe.js" async></script>
+	   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	
+
+	  </head>
+	  <div align="center">
+     <h1 align="center">Tic Tac Toe</h1>
+     <form name="f1">
+            <label id=label1 for="Player1">Player 1</label> 
+            <label id=label2 for="Player2">Player 2</label> <br> 
+            <input  type="text" class="btn btn-outline-dark" id="player1" value="0" readonly> 
+            <input  type="text" class="btn btn-outline-dark" id="player2" value="0" readonly> <br> <br>
+            <input type="button" id="1" name="b1" class="reset" value=" " onclick="button(this)"/>
+            <input type="button" id="2" name="b2" class="reset" value=" " onclick="button(this)"/>
+            <input type="button" id="3" name="b3" class="reset" value=" " onclick="button(this)"/>
+            <br>
+            <input type="button" id="4" name="b4" class="reset" value=" " onclick="button(this)"/>
+            <input type="button" id="5" name="b5" class="reset" value=" " onclick="button(this)"/>
+            <input type="button" id="6" name="b6" class="reset" value=" " onclick="button(this)"/>
+            <br>
+            <input type="button" id="7" name="b7" class="reset" value=" " onclick="button(this)"/>
+            <input type="button" id="8" name="b8" class="reset" value=" " onclick="button(this)"/>
+            <input type="button" id="9" name="b9" class="reset" value=" " onclick="button(this)"/>
+            <br> <br>  <br>
+            <input type="reset" class="btn btn-outline-dark" value="RESET" onclick="clearBtn(); switchBtn.style.display = 'inline-block';" />
+            <input type="button" class="btn btn-outline-dark" id="switchBtn" value="SWITCH" onclick="switchMode();" />
+              <br>
+          </form>
+		  <br>
+		
+		<audio id="aud1" controls></audio>  
+		<!--
+		<audio controls 
+			autoplay loop
+			src="Costollo.mp3"	
+			
+			type="audio/mp3"
+			autoplay="true"			
+			
+			-->
+        </div>
